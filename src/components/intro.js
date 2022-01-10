@@ -20,7 +20,7 @@ export default function Intro() {
             <p>{data.intro.about}</p>
             <button><a href="#about">Know More...</a></button>
             </div>
-            <div className="photo"> <img src={data.intro.image} alt="my photo" /></div>
+            <div className="photo"> <img src={data.intro.image} alt='hello'/></div>
            
         </div>
         </section>

@@ -81,26 +81,26 @@ export const data={
         {
             platform:"Whatsapp",
             icon:whatsapp,
-            link:"",
+            link:"http://wa.me/+917001805799",
         },
         {
             platform:"Facebook",
             icon:facebook,
-            link:"",
+            link:"https://www.facebook.com/gourav.agarwal.5015",
         },
         {
             platform:"linkedin",
             icon:linkedin,
-            link:"",
+            link:"https://www.linkedin.com/in/gourav-agarwal-49987b21a",
         },
         {
             platform:"instagram",
             icon:instagram,
-            link:"",
+            link:"https://instagram.com/gourav_5015?utm_medium=copy_link",
         },
     ],
     mail:"aggourav5015@gmail.com",
-    footerdesc:"Do coonect with me on my social accounts too",
+    footerdesc:"Do connect with me on my social accounts too",
     copyright:"2022&copy;Gourav Agarwal",
     phone:"7001805799"
     }
