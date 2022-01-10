@@ -1,0 +1,81 @@
+.intro {
+    box-sizing: border-box;
+    font-size: 16px;
+    height:100vh;
+    padding:20vh 5vh 5vh 5vh ;
+}
+.back{
+    background-image: linear-gradient( 45deg,white,white,lightblue,white,white);
+}
+.myintro{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    box-sizing: border-box;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo{
+    height:inherit;
+}
+.myintro img {
+    height:inherit;
+    width: 100%;
+}
+.myintro .i{
+    font-size: 2em;
+    font-style: oblique;
+    color:black;
+}
+.myintro p{
+    font-size: 2em;
+}
+.myintro a{
+    text-decoration: none;
+    color:white;
+   
+}
+.myintro button{
+    background-color: rgb(35, 130, 255);
+    border-radius: 6vh;
+    padding:1em;
+} 
+.myintro .name{
+    word-wrap: break-word;
+    font-size: 4em;
+    font-stretch: expanded;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+    -webkit-text-stroke: 2px white;
+    animation-name: c;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes c{
+    0% { -webkit-text-stroke:2px white;
+    color:white;}
+    20% { -webkit-text-stroke:2px  red;
+    color:red;}
+    40% { -webkit-text-stroke:2px  green;
+    color:green;}
+    60%{ -webkit-text-stroke:2px pink;
+        color:pink;}
+    80% { -webkit-text-stroke:2px blue;
+        color:blue;}
+    100% { -webkit-text-stroke:2px  yellow;
+    color:yellow;}
+}
+@media screen and (max-width:768px){
+    .myintro{flex-direction: column-reverse;
+    height:auto;
+    font-size: 12px;
+    }
+    .myintro img{
+        height:30vh;
+    }
+    .intro{padding-top: 24%;
+    height: auto;}
+}
