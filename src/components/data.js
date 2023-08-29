@@ -4,6 +4,10 @@ import whatsapp from'./css/whatsapp.png'
 import linkedin from'./css/linkedin.png'
 import facebook from'./css/facebook.png'
 import instagram from'./css/instagram.png'
+import react from'./css/react.png'
+import android from'./css/android.png'
+import mongodb from'./css/mongodb.webp'
+import mysql from'./css/mysql.png'
 export const data={
     intro:{
         name:"gourav agarwal",
@@ -67,6 +71,22 @@ export const data={
     {
         name:"CSS",
         image:"https://img.icons8.com/color/48/000000/css3.png",
+    },
+    {
+        name:"Android",
+        image:android,
+    },
+    {
+        name:"ReacrJs",
+        image:react,
+    },
+    {
+        name:"MongoDB",
+        image:mongodb,
+    },
+    {
+        name:"MySQL",
+        image:mysql,
     },
     ],
     contact:{
