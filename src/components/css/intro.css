@@ -4,8 +4,7 @@
     height:100vh;
     padding:20vh 5vh 5vh 5vh ;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
-    border-radius: 20px;
-    
+    border-radius: 20px;    
 }
 /* .back{
     background-image: linear-gradient( 45deg,white,white,lightblue,white,white);
@@ -19,24 +18,15 @@
     justify-content: space-around;
 }
 .photo{
-    height:inherit;
+    height: 40vh;
+    
 }
 .myintro img {
-    height:inherit;
+    height: 100%;
+    object-fit: contain;
     width: 100%;
 } 
-.myintro button :after{
-    content: '';
-    height: 60px;
-    width: 60px;
-    background-color: #419aff;
-    display: none;
-    position: absolute;
-    border-radius: 50%;
-    right: -30px;
-    bottom: -30px;
-    z-index: -1;
-}
+
 .myintro .i{
     font-size: 2em;
     font-style: oblique;
@@ -50,16 +40,14 @@
    
 }
 .myintro button{
+    position: relative;
     width: auto;
     background-color: rgba(35, 130, 255,0.1);
     background-color: rgba(0, 33, 220, 0.593);
-    backdrop-filter: blur(80px);
-    -webkit-backdrop-filter: blur(40px);
     border-radius: 10px;
     font-size: 1.5em;
     border: none;
     padding:.6em;
-    z-index: 1;
 } 
 .myintro .name{
     word-wrap: break-word;

@@ -52,7 +52,7 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(rgba(2,2,2,.5),rgba(0,0,0,.5));
+    background-image: linear-gradient(rgba(9, 21, 50, 0.5),rgba(18, 42, 77, 0.5));
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 10px black;

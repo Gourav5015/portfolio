@@ -48,7 +48,6 @@
 }
 .col1 .div:hover{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
-
 }
 
 .col1 a{
@@ -76,8 +75,8 @@
     box-sizing: border-box;
     margin:2% 10% 10% 10%;
     padding-top: 5px;
-    background-color: rgba(192, 189, 189, 0.637);
-    opacity: 80%;
+    background-color:white;
+    opacity: 100%;
     }
 .col2 label{
     margin:10px;

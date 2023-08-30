@@ -51,8 +51,8 @@
     text-align: center;
 }
 .edu div{
-   box-shadow: 5px 8px 8px black;
-   background-image:linear-gradient(20deg,rgb(22, 42, 70),rgb(22, 42, 70),rgb(137, 188, 230),rgb(25, 38, 73));
+   box-shadow: 5px 8px 8px rgb(3, 7, 45);
+   background-image:linear-gradient(20deg,rgb(5, 32, 70),rgb(5, 30, 65),rgb(8, 37, 60),rgb(18, 38, 92));
     color:white;
     font-size: 1.2em;
     opacity: 90%;
@@ -61,10 +61,10 @@
     height:auto;
     box-sizing: border-box;
 }
-.edu div:hover{
+/* .edu div:hover{
     cursor:pointer;
     background-image:linear-gradient(30deg,rgb(7, 19, 36),rgb(9, 25, 47),rgb(25, 134, 223),rgb(25, 38, 73));
-}
+} */
 .edu h4{
     text-align: center;
 }
