@@ -13,7 +13,11 @@
     
 }
 .skills{
-    background-image:linear-gradient(rgba(3, 3, 1, 0.8),rgba(0, 0, 150, 0.6));
+    /* background-image:linear-gradient(rgba(3, 3, 1, 0.8),rgba(0, 0, 150, 0.6)); */
+    border-radius: 20px;
+    height: auto;
+    background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
+    margin-bottom: 20px !important;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;  

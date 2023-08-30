@@ -16,7 +16,7 @@ export const data={
         image:photo,
     },
     about:{
-        image:myimage,
+        image:photo,
         aboutme:"Hey reader.My name is Gourav Agarwal.A B.Tech student in CSE from Techno International Newtown I love to work on projects.I am open to explore new technologies.",
         education:[{
             class:"Class:10",

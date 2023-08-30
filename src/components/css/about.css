@@ -1,32 +1,45 @@
 .about{
-    background-image: linear-gradient(50deg,rgba(15, 66, 107, 0.842),rgba(35, 13, 235, 0.568));
+    /* background-image: linear-gradient(50deg,rgba(15, 66, 107, 0.842),rgba(35, 13, 235, 0.568)); */
+    background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #171c3793;
     color:white;
     padding: 0% 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .myself,.edu{
     display: flex;
-    align-items:flex-start;
-    flex:1;
+    /* align-items:flex-start;
+    flex:1; */
     box-sizing: border-box;
+}
+.myself{
+        align-items:center;
 }
 .edu{
     height:max-content;
     justify-content: space-between;
     align-items: stretch;
 }
-.myself img{
-    height:40vh;
-    margin:10px;
-}
 .myself span::first-letter{
     font-size: 3rem;
 }
+.image{
+    margin: 20px;
+    width: 50%; 
+    height: 30vh;
+}
+.image img{
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 .myself p{
-    padding-top:0.5em;
-    display: flex;
     font-size: 2em;
-    justify-content: center;
-    align-items: center;
 }
 .about h1{
     margin-top: 0px;
@@ -61,7 +74,7 @@
     }
     .myself,.edu{
         flex-direction:column;
-        font-size: 10px;
+        font-size: .7em;
         align-items:center;
         justify-content: center;
     }
@@ -76,8 +89,7 @@
         padding: 20px;
     }
     .edu div{
-        width:100%;
-        
+        width:100%; 
         margin-top: 5vh;
         font-size: 1.5em;
     }

@@ -1,3 +1,12 @@
 *{
+    
     scroll-behavior: smooth;
+}
+body{
+    /* background: linear-gradient(45deg ,#000106,#0b002d); */
+    background: black;
+    color: white;
+}
+.App{
+    padding: 5px;
 }

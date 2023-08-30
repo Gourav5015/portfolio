@@ -1,7 +1,8 @@
 .contact {
     height:auto ;
-    background-color: transparent;
-    color: black;
+    background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
+    border-radius: 20px;
+    color: white;
     padding-bottom: 5%;
 }
 .contact h1{
@@ -25,7 +26,7 @@
     float:right;
     height:inherit;
     box-sizing: border-box;
-    color: black;
+    color: white;
 }
 .col1 h3 ,.col2 h3{
     text-align: center;

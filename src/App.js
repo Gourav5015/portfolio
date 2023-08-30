@@ -2,6 +2,7 @@ import Intro from './components/intro.js'
 import Skills from './components/skills.js'
 import Footer from './components/footer.js'
 import Contact from './components/contact.js'
+import Nav from './components/nav.js'
 import About from './components/about.js'
 import './App.css'
 function App() {
@@ -9,6 +10,7 @@ function App() {
   <div className="App">
   <header className="App-header">
   </header>
+  <Nav/>
   <Intro/>
   <About/>
   <Skills/>

@@ -18,7 +18,7 @@ export default function About() {
         <section className='about' id="about">
             <h1>About Me</h1>
             <div className="myself">
-                <img src={data.about.image} alt="Gourav Agarwal" />
+                <div className='image'><img src={data.about.image} alt="Gourav Agarwal" /></div>
                 <p>{data.about.aboutme}
                 </p>
             </div>

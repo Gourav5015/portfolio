@@ -7,9 +7,7 @@ export default function Intro() {
     return (
         <>
         <div className='back'>
-        <Nav/>
         <section className="intro">
-        
         <div className="myintro">
             <div>
             <span className='i'>I am </span>
