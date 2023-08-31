@@ -22,14 +22,6 @@ export default function About() {
                 <p>{data.about.aboutme}
                 </p>
             </div>
-            <div className="education">
-                <h2>Education</h2>
-                <div className="edu">
-                {edu}
-                </div>
-                <br />
-                <br />
-            </div>
         </section>
     )
 }

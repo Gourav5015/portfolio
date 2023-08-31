@@ -8,11 +8,12 @@ const Nav = () => {
                 {(Navbar)?<div className='navbar'>
             <div className="cancel" onClick={()=>setNavbar(false)}>X</div>
         <nav>
-            <li onClick={()=>setNavbar(false)}><a href="/">home</a></li>
-            <li onClick={()=>setNavbar(false)}><a href="/#about">about me</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/">Home</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#about">About me</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#education">Education</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#coding">Coding</a></li>
-            <li onClick={()=>setNavbar(false)}><a href="/#skills">skills</a></li>
-            <li onClick={()=>setNavbar(false)}><a href="/#contact">contact me</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#skills">Skills</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#contact">Contact me</a></li>
         </nav>
         </div>:<img src={Menu} alt="menu" className='menu' onClick={()=>{setNavbar(true)}}/>}  
         </>

@@ -1,52 +1,29 @@
-.about{
+.education{
     /* background-image: linear-gradient(50deg,rgba(15, 66, 107, 0.842),rgba(35, 13, 235, 0.568)); */
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
     border-radius: 20px;
     box-shadow: 1px 1px 10px #171c3793;
     color:white;
-    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
-.myself{
+.edu{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
     box-sizing: border-box;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 10px;
+}
+.edu{
+    height:max-content;
+    justify-content: space-between;
+    align-items: stretch;
 }
 .myself span::first-letter{
     font-size: 3rem;
 }
-.image{
-    margin: 20px;
-    height: 10%;
-    border-radius: 10px;
-    width: 30%;
-    display: flex;
-}
-.image img{
-    height: 30%;
-    overflow: hidden;
-    object-fit: contain;
-    border-radius: 50%;
-    /* position: relative;
-    left: 50%;
-    
-    top: 50%;
-    transform: translate(-50%,-50%);
-     */
-}
-.myself p{
-    font-size: 2em;
-    width: 50%;
-}
-.about h1{
+
+.education h1{
     margin-top: 0px;
     text-align: center;
     font-size: 2em;
@@ -66,33 +43,29 @@
     height:auto;
     box-sizing: border-box;
 }
-/* .edu div:hover{
-    cursor:pointer;
-    background-image:linear-gradient(30deg,rgb(7, 19, 36),rgb(9, 25, 47),rgb(25, 134, 223),rgb(25, 38, 73));
-} */
-.edu h4{
-    text-align: center;
-}
 @media screen and (max-width:768px) {
     .about{
         padding: 0%;
     }
-    .myself{
+    .myself,.edu{
         flex-direction:column;
         font-size: .7em;
         align-items:center;
         justify-content: center;
-        padding: 0 10px;
-    }
-    .image{
-        box-sizing: border-box;
-        width: 80%;
-        padding: 5%;
     }
     .myself p{
-        text-align: justify;
-        box-sizing: border-box;
-        padding: 5px;
+        padding: 5%;
+    }
+    .edu{
         width: 100%;
+        height:max-content;
+        margin-bottom: 5vh;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .edu div{
+        width:100%; 
+        margin-top: 5vh;
+        font-size: 1.5em;
     }
 }
