@@ -10,6 +10,7 @@ const Nav = () => {
         <nav>
             <li onClick={()=>setNavbar(false)}><a href="/">home</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#about">about me</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#coding">Coding</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#skills">skills</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#contact">contact me</a></li>
         </nav>

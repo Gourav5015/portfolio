@@ -6,12 +6,14 @@ export  default function Coding (){
     const [medium,setMedium]=useState(0);
     const [hard,setHard]=useState(0);
     const [total,setTotal]=useState(0);
+    const [rating,setRating]=useState(0);
     useEffect(()=>{
         fetch("https://leetcodeprofileapi.vercel.app/api/aggourav5015/").then((res)=>res.json())
         .then((data)=>{
             setEasy(data.details.profile.submitStats.acSubmissionNum[1].count)
             setMedium(data.details.profile.submitStats.acSubmissionNum[2].count)
             setHard(data.details.profile.submitStats.acSubmissionNum[3].count)
+            setRating(Math.round(data.details.contest.rating))
         })
     }
     ,[])
@@ -21,7 +23,7 @@ export  default function Coding (){
     ,[easy,medium,hard])
   return (
     <section className='coding' id='coding'>
-        <h1 className='heading'>Coding Profile</h1>
+        <a href="https://leetcode.com/aggourav5015/"><h1 className='heading'>Leetcode Profile</h1></a>
         <div className='wrapper'>
         <div className='outer'>
             <div className='inner'>
@@ -41,15 +43,18 @@ export  default function Coding (){
         </div>
         <div className='types'>
             <h3 className='easy'>Easy: <span>{easy}</span>
-            <div></div>
+            <div style={{width:(easy/total)*100 +"%"}}></div>
             </h3>
             <h3 className='medium'> Medium: <span>{medium}</span>
-            <div></div>
+            <div style={{width:(medium/total)*100 +"%"}}></div>
             </h3>
             <h3 className='hard'> Hard: <span>{hard}</span>
-            <div></div>
+            <div style={{width:(hard/total)*100+"%"}}></div>
             </h3>
         </div>
+        </div>
+        <div className='rating'>
+            <h3>Contest Rating:{rating}</h3>
         </div>
     </section>
   )

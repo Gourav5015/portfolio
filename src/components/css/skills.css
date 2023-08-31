@@ -2,8 +2,6 @@
     color:white;
     text-align: center;
     font-size: 2em;
-    letter-spacing: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 5%;
 }
 .codingskills {
@@ -17,7 +15,7 @@
     border-radius: 20px;
     height: auto;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
-    margin-bottom: 20px !important;
+    margin-bottom: 20px ;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;  
@@ -53,6 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     background-image: linear-gradient(rgba(9, 21, 50, 0.5),rgba(18, 42, 77, 0.5));
+    background-color: rgba(10, 37, 117, 0.263);
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 10px black;

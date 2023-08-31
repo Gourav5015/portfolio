@@ -10,7 +10,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px ;
 }
+
 .wrapper{
     width: 100%;
     display: flex;
@@ -118,4 +120,14 @@ svg{
     .types{
         width:50%;
     }
+}
+.rating {
+    box-sizing: border-box;
+    padding: 0px 50px;
+    border-radius: 10px;
+    background-color: rgba(10, 51, 174, 0.373);
+}
+a{
+    text-decoration: none;
+    color: white;
 }
