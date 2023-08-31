@@ -4,6 +4,7 @@ import Footer from './components/footer.js'
 import Contact from './components/contact.js'
 import Nav from './components/nav.js'
 import About from './components/about.js'
+import  Coding  from './components/coding.js'
 import './App.css'
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
   <Nav/>
   <Intro/>
   <About/>
+  <Coding/>
   <Skills/>
   <Contact/>
   <Footer/>

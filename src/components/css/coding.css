@@ -1,0 +1,121 @@
+
+.coding{
+    box-sizing: border-box;
+    height:auto ;
+    background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
+    border-radius: 20px;
+    color: white;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+.outer{
+    margin-right: 15px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    flex-direction: column;
+}
+circle {
+    fill:none;
+    stroke-width: 15px;
+    stroke: url(#GradientColor);
+}
+svg{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text{
+    font-weight: 300;
+    font-size: .5em;
+}
+.types{
+    padding:0px 10px;
+    width:20%;
+}
+.easy{
+    width: 100%;
+    padding-bottom: 5px;
+}
+.easy div, .hard div ,.medium div{
+    height: 5px;
+    width: 20%;
+    transform: translateY(100%);
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    background-color: rgb(12, 205, 12);
+}
+.hard div{
+    background-color:red;
+}
+.medium div{
+    background-color:orange;
+}
+.medium{
+    padding-bottom: 5px;
+}
+.hard{
+    padding-bottom: 5px;
+}
+.easy::after{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    display: block;
+    border-radius: 5px;
+    content: "";
+    background-color: rgba(10, 213, 10, 0.675) ;
+}
+.hard:after{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    display: block;
+    border-radius: 5px;
+    content: "";
+    background-color: rgba(255, 0, 0, 0.618) ;
+}
+.medium:after{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    display: block;
+    border-radius: 5px;
+    content: "";
+    background-color: rgba(255, 166, 0, 0.616) ;
+}
+
+@media screen and (max-width:768px){
+    .wrapper{
+        width: 80%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .types{
+        width:50%;
+    }
+}
