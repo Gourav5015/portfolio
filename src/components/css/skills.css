@@ -5,7 +5,6 @@
     margin-bottom: 5%;
 }
 .codingskills {
-    height: max-content;
     display: block;
     box-sizing: border-box;
     
@@ -13,7 +12,6 @@
 .skills{
     /* background-image:linear-gradient(rgba(3, 3, 1, 0.8),rgba(0, 0, 150, 0.6)); */
     border-radius: 20px;
-    height: auto;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
     margin-bottom: 20px ;
     background-repeat: no-repeat;
@@ -41,11 +39,12 @@
 }
 .programming{
     box-sizing: border-box;
-    height: 50vh;
+    height: max-content;
     align-content: space-around;
     justify-content: space-around;
     flex-wrap: wrap;
     display: flex;
+    gap: 20px;
 }
 .programming div{
     width: 20vw;

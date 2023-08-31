@@ -19,17 +19,19 @@ export default function Contact() {
                 <iframe src={data.contact.location}  frameBorder="0"title={data.contact.pincode} >myLocation</iframe>
                 <div className='div'>
                     <h3>Address</h3>
-                    <span>{data.contact.addressl1}</span><br /> <span>{data.contact.addressl2}</span>
-                    <br /><span>{data.contact.addressl3} -<b>{data.contact.pincode}</b></span>
-                    <br />
+                    <div>{data.contact.addressl1}</div>
+                    <div>{data.contact.addressl2}</div>
+                    <div>{data.contact.addressl3} -<b>{data.contact.pincode}</b></div>
+                <div>
                 <img src={email} alt="email" className='email' /><a href={data.footer.mail}>{data.footer.mail}</a>
-                <br />
+                </div>
+                <div>
                 <img src={phone} alt="phone" className='phone' /><a href={pn} >{data.footer.phone}</a>
+                </div>
                 </div>
             </div>
             <div className="col2">
-                <h1>Hire Me</h1>
-                <hr />
+                <h1>Message Me</h1>
                 <p>For work you can fill the form below </p>
                 <div>
                 <form action="#">
