@@ -16,10 +16,22 @@ import project4 from "./css/project5.png"
 import project5 from "./css/project4.jpg"
 import kotlin from "./css/kotlin.png"
 export const data = {
+    config:{
+        showIntroSection:true,
+        showAboutSection:true,
+        showEducationSection:true,
+        showCodingSection:true,
+        showProjectsSection:true,
+        showSkillsSection:true,
+        showContactSection:true,
+        showFooterSection:true,
+    },
     intro: {
+        heading:"I am",
         name: "gourav agarwal",
         about: "To know more scroll down😎",
         image: photo,
+        buttonText:"Know More...",
     },
     about: {
         image: photo,
@@ -42,10 +54,15 @@ export const data = {
             class: "B.Tech",
             board: "University:MAKAUT",
             name: "College:Techno International Newtown",
-            pass: "Passing Year:2024(ongoing)",
-            percentage: "Percentage:ongoing",
+            pass: "Passing Year:2024",
+            percentage: "CGPA:9.17",
         }
         ],
+    },
+    coding:{
+        leetcodeUsername:"aggourav5015",
+        leetcodeUrl:"https://leetcode.com/aggourav5015/",
+        showContestRating:true,
     },
     projects: [
         {
@@ -173,6 +190,8 @@ export const data = {
     },
     ],
     contact: {
+        heading1:"Message Me",
+        heading2:"For work you can fill the form below" ,
         addressl1: "Near Community Hall ,Rambandh",
         addressl2: "Burnpur",
         addressl3: "Asansol",
@@ -204,7 +223,7 @@ export const data = {
         ],
         mail: "aggourav5015@gmail.com",
         footerdesc: "Do connect with me on my social accounts too",
-        copyright: "2022&copy;Gourav Agarwal",
+        copyright: "2023&copy;Gourav Agarwal",
         phone: "7001805799"
     }
 }

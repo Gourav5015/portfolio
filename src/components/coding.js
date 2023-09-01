@@ -1,5 +1,6 @@
 import React from 'react'
 import "./css/coding.css"
+import { data } from './data';
 import { useState ,useEffect } from 'react'
 export  default function Coding (){
     const [easy,setEasy]=useState(0);
@@ -8,7 +9,7 @@ export  default function Coding (){
     const [total,setTotal]=useState(0);
     const [rating,setRating]=useState(0);
     useEffect(()=>{
-        fetch("https://leetcodeprofileapi.vercel.app/api/aggourav5015/").then((res)=>res.json())
+        fetch("https://leetcodeprofileapi.vercel.app/api/"+data.coding.leetcodeUsername+"/").then((res)=>res.json())
         .then((data)=>{
             setEasy(data.details.profile.submitStats.acSubmissionNum[1].count)
             setMedium(data.details.profile.submitStats.acSubmissionNum[2].count)
@@ -23,13 +24,12 @@ export  default function Coding (){
     ,[easy,medium,hard])
   return (
     <section className='coding' id='coding'>
-        <a href="https://leetcode.com/aggourav5015/"><h1 className='heading'>Leetcode Profile</h1></a>
+        <a href={data.coding.leetcodeUrl}><h1 className='heading'>Leetcode Profile</h1></a>
         <div className='wrapper'>
         <div className='outer'>
             <div className='inner'>
                 <span>{total}</span>
                 <span className='text'>Problems</span>
-
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="120px" height="120px">
          <defs>
@@ -53,9 +53,10 @@ export  default function Coding (){
             </h3>
         </div>
         </div>
+        { data.coding.showContestRating &&
         <div className='rating'>
             <h3>Contest Rating:{rating}</h3>
-        </div>
+        </div>}
     </section>
   )
 }

@@ -1,5 +1,4 @@
 .codingskills h1{
-    color:white;
     text-align: center;
     font-size: 2em;
     margin-bottom: 5%;
@@ -13,7 +12,8 @@
     /* background-image:linear-gradient(rgba(3, 3, 1, 0.8),rgba(0, 0, 150, 0.6)); */
     border-radius: 20px;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
-    margin-bottom: 20px ;
+    box-shadow: 1px 1px 10px #171c3793;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;  
@@ -33,7 +33,6 @@
     margin-right: 10px;
 }
 .codingskills legend{
-    color:beige;
     font-size: 1em;
 
 }
@@ -52,11 +51,10 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(rgba(9, 21, 50, 0.5),rgba(18, 42, 77, 0.5));
-    background-color: rgba(10, 37, 117, 0.263);
+    background-color:#1343b325;;
     align-items: center;
     justify-content: center;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 5px black;
     border-radius: 0.7rem;
 }
 .programming div:hover{
@@ -69,6 +67,10 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction:initial;
+
+}
+.programming div:hover legend{
+    color: white;
 }
 @keyframes colours {
     25%{border-bottom:1px solid  yellow;
@@ -106,7 +108,6 @@
     }
     .skills{
         font-size: 0.8em;
-        margin :0px;
     }
     .codingskills img {
         margin-right: 0px;

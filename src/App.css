@@ -10,3 +10,21 @@ body{
 .App{
     padding: 5px;
 }
+.mode-dark ,.mode-light{
+    box-sizing: border-box;
+    padding: 2px;
+    border: 1px solid black;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    border-radius:30px;
+}
+.mode-dark img ,.mode-light img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

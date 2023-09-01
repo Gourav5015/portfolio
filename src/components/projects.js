@@ -22,7 +22,7 @@ function Project(props) {
                     <img src={props.ele.image} alt='iamge'/>
                 </div>
                 <div className='content'> 
-                <div>
+                <div className='project-about'>
                     {props.ele.about}
                 </div>
                 <div className='tag'>

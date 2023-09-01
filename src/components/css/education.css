@@ -28,14 +28,14 @@
 .education h2{
     text-align: center;
 }
+.edu h4{
+    text-align: center;
+}
 .edu div{
-   box-shadow: 5px 8px 8px rgb(3, 7, 45);
-   background-image:linear-gradient(20deg,rgb(5, 32, 70),rgb(5, 30, 65),rgb(8, 37, 60),rgb(18, 38, 92));
-    color:white;
+   background-color: #1343b325;
     font-size: 1.2em;
-    opacity: 90%;
     width:30%;
-    padding:10px auto;
+    padding:20px;
     height:auto;
     box-sizing: border-box;
     border-radius: 15px;

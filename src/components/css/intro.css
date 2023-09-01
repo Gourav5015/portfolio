@@ -1,6 +1,7 @@
 .intro {
     box-sizing: border-box;
     font-size: 16px;
+    box-shadow: 1px 1px 10px #171c3793;
     height:100vh;
     padding:20vh 5vh 5vh 5vh ;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
@@ -18,13 +19,16 @@
     justify-content: space-around;
 }
 .photo{
-    height: 40vh;
-    
+    height: 30vh;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
 }
 .myintro img {
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
+
 } 
 
 .myintro .i{
@@ -36,7 +40,7 @@
 }
 .myintro a{
     text-decoration: none;
-    color:white;
+    background:transparent ;
    
 }
 .myintro button{
@@ -84,7 +88,8 @@
     font-size: 12px;
     }
     .myintro img{
-        height:80%;
+        height:100%;
+        width:100% ;
         border-radius: 50%;
         margin-bottom: 30px;
     }

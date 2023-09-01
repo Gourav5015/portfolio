@@ -31,8 +31,8 @@ export default function Contact() {
                 </div>
             </div>
             <div className="col2">
-                <h1>Message Me</h1>
-                <p>For work you can fill the form below </p>
+                <h1>{data.contact.heading1}</h1>
+                <p>{data.contact.heading2}</p>
                 <div>
                 <form action="#">
                     <label htmlFor="email">Email</label>

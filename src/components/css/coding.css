@@ -1,5 +1,6 @@
 
 .coding{
+    box-shadow: 1px 1px 10px #171c3793;
     box-sizing: border-box;
     height:auto ;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
@@ -121,6 +122,10 @@ svg{
         width:50%;
     }
 }
+.inner span {
+    z-index: 1;
+}
+
 .rating {
     box-sizing: border-box;
     padding: 0px 50px;
