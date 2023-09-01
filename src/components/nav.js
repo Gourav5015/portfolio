@@ -8,10 +8,11 @@ const Nav = () => {
                 {(Navbar)?<div className='navbar'>
             <div className="cancel" onClick={()=>setNavbar(false)}>X</div>
         <nav>
-            <li onClick={()=>setNavbar(false)}><a href="/">Home</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#">Home</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#about">About me</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#education">Education</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#coding">Coding</a></li>
+            <li onClick={()=>setNavbar(false)}><a href="/#project">Projects</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#skills">Skills</a></li>
             <li onClick={()=>setNavbar(false)}><a href="/#contact">Contact me</a></li>
         </nav>

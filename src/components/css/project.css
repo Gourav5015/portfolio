@@ -1,0 +1,143 @@
+.project{
+    background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #171c3793;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.project h1{
+    font-size: 2em;
+}
+.project .wrapper h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.project .wrapper{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content:center;
+    align-items: start;
+}
+.project .wrapper .item h2{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.item{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1343b325;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.project .body{
+    justify-content: start;
+    display: flex;
+    margin-bottom: 10px;
+    gap:10px;
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+    text-align: justify;
+}
+.project-image{
+    width: 100%;
+     height: 150px; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.link {
+    widows: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: max-content;
+    gap:10px;
+}
+.link button{
+    width: 30%;
+    word-wrap: nowrap;
+    box-sizing: border-box;
+    border: none;
+    color:white;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.link button:hover{
+    cursor: pointer;
+}
+.tag{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.tag div {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+}
+.view {
+    background-color: #e91e63;
+}
+.download{
+    background-color: #1343b3;
+}
+.repo{
+    background-color: #ba0b0b;
+}
+.view:hover {
+    background-color: #861037;
+}
+.download:hover{
+    background-color: #0a2156;
+}
+.repo:hover{
+    background-color: #660808;
+}
+@media screen and (max-width:768px){
+    .link button{
+        width: 100%;
+    }
+    .link{
+        gap:10px;
+    }
+    .item{
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .content ,.project-image{
+        width: 100%;
+    }
+}

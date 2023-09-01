@@ -6,6 +6,7 @@ import Nav from './components/nav.js'
 import About from './components/about.js'
 import  Coding  from './components/coding.js'
 import Education from './components/education.js'
+import Projects from './components/projects.js'
 import './App.css'
 function App() {
   return(
@@ -17,6 +18,7 @@ function App() {
   <About/>
   <Education/>
   <Coding/>
+  <Projects/>
   <Skills/>
   <Contact/>
   <Footer/>
