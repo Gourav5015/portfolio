@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     gap:20px;
     justify-content:center;
-    align-items: start;
+    
 }
 .project .wrapper .item h2{
     box-sizing: border-box;
