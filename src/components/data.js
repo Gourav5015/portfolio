@@ -138,6 +138,21 @@ export const data = {
             view: "",
             repo: "https://github.com/Shreyansh2500/attendance",
             download: "",
+        },
+        
+        {
+            name: "Portfolio- For Everyone ",
+            image: project1,
+            about: "It is a Portfolio website template for everyone in this the who wants to have a portfolio website just need to update their details and done your website is ready in minutes without knowing any coding knowledge anyone can have their own  portfolio website.",
+            tags: [
+                "https://img.icons8.com/color/48/000000/html-5--v1.png",
+                "https://img.icons8.com/color/48/000000/css3.png",
+                "https://img.icons8.com/color/48/000000/javascript--v1.png",
+                react,
+            ],
+            view: "https://portfolio-tq9y.vercel.app/#about",
+            repo: "https://github.com/Gourav5015/portfolio",
+            download: "",
         }
     ],
     skill: [{
