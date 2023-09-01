@@ -37,7 +37,7 @@
 }
 .navbar nav {
     margin:20%;
-    margin-left:0px;
+
     box-sizing: border-box;
     height: inherit;
     display: flex;
@@ -54,7 +54,7 @@
     /* border-bottom:2px solid white; */
     padding:10px;
     font-size: 1em;
-    margin:5px;
+
     list-style: none;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
