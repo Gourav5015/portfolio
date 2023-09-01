@@ -37,6 +37,7 @@
 }
 .navbar nav {
     margin:20%;
+    margin-left:0px;
     box-sizing: border-box;
     height: inherit;
     display: flex;
