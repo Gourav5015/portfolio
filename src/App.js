@@ -68,7 +68,7 @@ function App() {
     color:black;
   }
   `
-  const [darkMode,setDarkMode]=useState(false)
+  const [darkMode,setDarkMode]=useState(true)
   // useEffect(()=>{
   //   console.log(darkMode)
   //   console.log((localStorage.getItem("mode")))
