@@ -86,7 +86,7 @@
     .myintro{
     flex-direction: column-reverse;
     font-size: 12px;
-    height: 90%;    
+    height: auto;    
 }
 
 }
