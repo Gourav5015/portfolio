@@ -87,9 +87,10 @@
     flex-direction: column-reverse;
     font-size: 12px;
     height: auto;
+        align-items:stretch;
     } 
     .photo {
         width:50%; 
-        height:auto;
+        
     }
 }
