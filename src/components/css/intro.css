@@ -11,9 +11,9 @@
     border-radius: 20px;    
 }
 .myintro{
-    width: 100%;
-    padding-left:15px; 
-    padding-right:15px;
+    width: 95%;
+    padding:10px; 
+    
     height: 60%;
     font-family: 'Dancing Script', cursive;
     display: flex;
