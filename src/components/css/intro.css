@@ -87,8 +87,8 @@
     flex-direction: column-reverse;
     font-size: 12px;
     height: auto;
-        align-items:stretch;
-        justify-content:center;
+    
+        justify-items:stretch;
     } 
     
     
