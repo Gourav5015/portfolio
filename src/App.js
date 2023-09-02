@@ -15,7 +15,7 @@ import './App.css'
 function App() {
 
   const root=`*{
-    background:white;
+    background:	white;
     color:black;
   }
   .cancel{
@@ -27,14 +27,13 @@ function App() {
 
   }
   section{
-    background:white !important;
+    background:	white !important;
   }
    .edu p ,.edu h4 ,.edu h5{
     background:transparent !important;
   }
   .rating h3 {
     background:transparent;
-    color:white;
   }
   span{
     background:transparent;
@@ -69,15 +68,18 @@ function App() {
   }
   `
   const [darkMode,setDarkMode]=useState(true)
-  // useEffect(()=>{
-  //   console.log(darkMode)
-  //   console.log((localStorage.getItem("mode")))
-  // }
-  // ,[])
+  useEffect(()=>{
+    const mode=JSON.parse(localStorage.getItem("mode"));
+    if(mode!=null) setDarkMode(mode)
+  }
+  ,[])
+  useEffect(()=>{
+    localStorage.setItem("mode",JSON.stringify(darkMode));
+  }
+  ,[darkMode])
   return(
   <div className="App">
-  <header className="App-header">
-  </header>
+  <header className="App-header"></header>
   {darkMode}
   <Nav/>
   {data.config.showIntroSection&&<Intro/>}
