@@ -2,24 +2,26 @@
     box-sizing: border-box;
     font-size: 16px;
     box-shadow: 1px 1px 10px #171c3793;
-    height:100vh;
-    padding:20vh 5vh 5vh 5vh ;
+    height:98vh;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
     border-radius: 20px;    
 }
-/* .back{
-    background-image: linear-gradient( 45deg,white,white,lightblue,white,white);
-} */    
 .myintro{
+    width: 100%;
+    padding: 20px;
+    height: 60%;
     font-family: 'Dancing Script', cursive;
     display: flex;
     box-sizing: border-box;
-    height: 50vh;
     align-items: center;
     justify-content: space-around;
 }
 .photo{
-    height: 30vh;
+    height: 100%;
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid black;
@@ -28,7 +30,6 @@
     height: 100%;
     object-fit: cover;
     width: 100%;
-
 } 
 
 .myintro .i{
@@ -84,15 +85,8 @@
 @media screen and (max-width:768px){
     .myintro{
     flex-direction: column-reverse;
-    height:auto;
     font-size: 12px;
-    }
-    .myintro img{
-        height:100%;
-        width:100% ;
-        border-radius: 50%;
-        margin-bottom: 30px;
-    }
-    .intro{padding-top: 24%;
-    height: auto;}
+    height: 90%;    
+}
+
 }
