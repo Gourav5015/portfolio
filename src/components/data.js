@@ -1,6 +1,6 @@
 
 import photo from './css/photo.jpg'
-import myimage from './css/myself.jpg'
+import myimage from './css/myimage.png'
 import whatsapp from './css/whatsapp.png'
 import linkedin from './css/linkedin.png'
 import facebook from './css/facebook.png'
@@ -30,7 +30,7 @@ export const data = {
         heading:"I am",
         name: "gourav agarwal",
         about: "To know more scroll down😎",
-        image: photo,
+        image: myimage,
         buttonText:"Know More...",
     },
     about: {
