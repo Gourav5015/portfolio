@@ -16,7 +16,7 @@ export default function Intro() {
             <p>{data.intro.about}</p>
             <button><a href="#about">{data.intro.buttonText}</a></button>
             </div>
-            <div className="photo"> <img src={data.intro.image} alt='hello'/></div>
+            <div className="photo" style={{backgroundImage:"url("+data.intro.image+")"}}> </div>
            
         </div>
         </section>
