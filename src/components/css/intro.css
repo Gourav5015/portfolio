@@ -2,7 +2,8 @@
     box-sizing: border-box;
     font-size: 16px;
     box-shadow: 1px 1px 10px #171c3793;
-    height:98vh;
+    height:auto;
+    min-height: 98vh;
     background: linear-gradient(45deg ,#17215693,#00000093,#17215693);
     display: flex;
     justify-content: space-evenly;
@@ -87,8 +88,11 @@
     flex-direction: column-reverse;
     font-size: 12px;
     height: auto;
-    
-        justify-items:stretch;
+    justify-items:stretch;
+    }
+    .photo{
+        width: 30vh;
+        height: 30vh;
     } 
     
     
