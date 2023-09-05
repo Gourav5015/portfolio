@@ -192,7 +192,7 @@ export const data = {
         image: android,
     },
     {
-        name: "ReacrJs",
+        name: "ReactJs",
         image: react,
     },
     {
