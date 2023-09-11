@@ -238,7 +238,7 @@ export const data = {
         ],
         mail: "aggourav5015@gmail.com",
         footerdesc: "Do connect with me on my social accounts too",
-        copyright: "2023&copy;Gourav Agarwal",
+        copyright: "2023©Gourav Agarwal",
         phone: "7001805799"
     }
 }
