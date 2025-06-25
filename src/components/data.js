@@ -55,7 +55,7 @@ export const data = {
             board: "University:MAKAUT",
             name: "College:Techno International Newtown",
             pass: "Passing Year:2024",
-            percentage: "CGPA:9.17",
+            percentage: "CGPA:8.86",
         }
         ],
     },
